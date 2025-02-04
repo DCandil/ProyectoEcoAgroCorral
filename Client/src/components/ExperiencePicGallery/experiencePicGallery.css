@@ -1,0 +1,17 @@
+.pic-gallery{
+  padding-block: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pic-cols{
+  padding: 0.5rem;
+  
+  .img-experience{
+    border-radius: 20px;
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+  }
+}
